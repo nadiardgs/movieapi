@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MovieSolution</name>
+    </assembly>
+    <members>
+        <member name="M:MovieSolution.Controllers.MoviesController.GetAll">
+            <summary>
+            Returns all of the movies.
+            </summary>
+            <returns>Movie list</returns>
+        </member>
+        <member name="M:MovieSolution.Controllers.MoviesController.GetById(System.String)">
+            <summary>
+            Returns a movie by its IMDB id.
+            </summary>
+            <returns>Movie list</returns>
+        </member>
+        <member name="M:MovieSolution.Controllers.MoviesController.Insert(System.String,System.Boolean,System.String)">
+            <summary>
+            Adds a new movie.
+            </summary>
+            <returns>Movie list</returns>
+        </member>
+        <member name="M:MovieSolution.Controllers.MoviesController.Edit(System.String,System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            Edits a movie.
+            </summary>
+            <returns>Movie list</returns>
+        </member>
+        <member name="M:MovieSolution.Controllers.MoviesController.Delete(System.String)">
+            <summary>
+            Removes a movie.
+            </summary>
+            /// <returns>Movie list</returns>
+        </member>
+    </members>
+</doc>
